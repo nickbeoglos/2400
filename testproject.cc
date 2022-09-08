@@ -9,7 +9,8 @@ int main(int argc, char const *argv[]) {
 
     int numofdogs = 0;
     string cats = "";
-    string yes = "Y"
+    string YES = "Y";
+   
     
 
     cout << "How many dogs do you have?" << endl;
@@ -17,13 +18,18 @@ int main(int argc, char const *argv[]) {
     cout << "You have " << numofdogs << " dogs!" << endl;
     
     cout << "Do you like cats? (Y/N)" << endl;
-    cin >> cats >> endl;
+    cin >> cats;
     
-    if (cats == yes)
+    if (cats == YES)
     {
         cout << "Cool!";
-        } else {
+    } else {
         cout << "Awww";
+    }
+
+    
+    
+    
             
     
     
