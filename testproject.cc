@@ -1,5 +1,7 @@
 // Trying to test code real quick!!
 
+// okay coding in a text file sucks so i'm seeing if this shows up now!
+
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
